@@ -27,7 +27,7 @@ sudo yum install unzip -y
 sudo unzip /opt/sonarqube-9.3.0.51899.zip
 sudo chow -R vgant:vagrant /opt/narqbe-9.3.0.51899
 
-cd /opt/sonarqub-9.3.0.51899/bin/linux-x86-64/
+cd sonarqub-9.3.0.51899/bin/linux-x86-64/
 ./sonar.sh start
 sleep
 
